@@ -1,0 +1,820 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>My Spanish Exercises</title>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+    </script>
+    <script
+      type="text/javascript"
+      async
+      src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"
+    ></script>
+    <style>
+      .dictionarios {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #ffc926;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .geografia {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #00b300;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .song {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #f44336;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .grammar {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #006cd9;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .util {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #000066;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .mat {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #ff4000;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .mov {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #888;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .book {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #131;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .audio {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #a1b;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .crucigrama {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #abb;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .lessons {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #f23;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .writing {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #aaa;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .mp3 {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #ffcc99;
+        color: #000000;
+        border: 1px solid #ffcc99;
+        border-radius: 5px;
+      }
+      .cite {
+        display: inline-block;
+        width: 90%;
+        padding: 8px;
+        margin: 10px;
+        background: #fff;
+        color: #000000;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .exam {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #f00;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .juego {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #ff0080;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .edu {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #000040;
+        color: #ffffbf;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+
+      .video {
+        display: inline-block;
+        width: 250px;
+        padding: 8px;
+        margin: 10px;
+        background: #d90000;
+        color: #ffffbf;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w3-container w3-white">
+      <!-- Słowniki-->
+      <section>
+        <h3>Diccionarios</h3>
+        <span class="dictionarios">
+          <a href="http://dle.rae.es/index.html"
+            ><abbr title="Diccionario de lengua espa&ntilde;la "
+              >Academia Real</abbr
+            ></a
+          >
+        </span>
+
+        <span class="dictionarios">
+          <a href="https://diccionario.reverso.net/ingles-espanol/to%20go"
+            >Reverso Diccionario</a
+          >
+        </span>
+
+        <span class="dictionarios">
+          <a href="https://www.buscapalabra.com/">Busca Palabra</a>
+        </span>
+
+        <span class="dictionarios">
+          <a
+            href="https://es.oxforddictionaries.com/translate/spanish-english/recortable"
+            ><abbr title="Oxford living dictionaries ">Oxford</abbr></a
+          >
+        </span>
+
+        <span class="dictionarios">
+          <a href="http://www.spanishdict.com/translation">Spanishdict</a>
+        </span>
+        <span class="dictionarios">
+          <a href="https://pl.pons.com/t%C5%82umaczenie/hiszpa%C5%84ski-polski"
+            >Pons</a
+          >
+        </span>
+
+        <span class="dictionarios">
+          <a href="http://www.goethe-verlag.com/book2/_VOCAB/PL/PLES/PLES.HTM"
+            >Słownik obrazkowy</a
+          >
+        </span>
+
+        <span class="dictionarios">
+          <a
+            href="http://www.mathematicsdictionary.com/spanish/vmd/system/grd-k12-index.htm"
+            >Mat</a
+          >
+        </span>
+
+        <span class="dictionarios">
+          <a href="http://math2.org/math/spanish/eng-spa.htm">Math2.org</a>
+        </span>
+
+        <span class="dictionarios">
+          <a href="https://www.behindthename.com/names/usage/spanish"
+            >Behind the names</a
+          >
+        </span>
+        <span class="dictionarios">
+          <a
+            href="http://new.medicalspanish.com/dictionary/english-spanish.html"
+            >Medical Spanish Dictionary</a
+          >
+        </span>
+
+        <span class="dictionarios">
+          <a
+            href="http://tlcdenia.es/parte-casa-muebles-espanol/"
+            rel="noopener"
+            target="_blank"
+            >Vocabulario de la casa</a
+          >
+        </span>
+      </section>
+
+      <!-- Podręczniki szkolne-->
+      <section>
+        <h3>Libros de texto</h3>
+        <span class="edu">
+          <a
+            href="https://educacion.gob.ec/libros-de-texto/"
+            rel="noopener"
+            target="_blank"
+            >en Ecuador</a
+          >
+        </span>
+      </section>
+      <!-- Egzaminy -->
+      <section>
+        <h3>Exámenes</h3>
+        <span class="exam">
+          <a href="https://examenes.cervantes.es/es">DELE</a>
+        </span>
+      </section>
+      <!-- Pisanie -->
+      <section>
+        <h3>Escritura - pisanie na klawiaturze</h3>
+        <span class="writing">
+          <a
+            href="https://www.6ka.pl/pytania/4,jak-uzyskac-na-klawiaturze-nietypowe-litery-wystepujace-w-innych-jezykach"
+            ><abbr title="Klawiatura ">Teclado</abbr> y letras especiales</a
+          >
+        </span>
+      </section>
+      <!-- Konwerter textu na dźwięk -->
+      <section>
+        <h3>Mp3 from text</h3>
+        <span class="mp3">
+          <a href="https://www.texttomp3.online/index-es.html"
+            >Texto a voz mp3</a
+          >
+        </span>
+      </section>
+      <!-- Gry -->
+      <section>
+        <h3>Juegos</h3>
+        <span class="juego">
+          <a href="https://youtu.be/_W_spi--AWs">Cluedo</a>
+        </span>
+      </section>
+      <!--Open Culture-->
+      <section>
+        <h3>Open Culture</h3>
+        <span class="lessons">
+          <a href="http://www.openculture.com/free_spanish_lessons"
+            >Open Culture - Free lessons</a
+          >
+        </span>
+
+        <span class="lessons">
+          <a href="https://hablacultura.com/multimedia/#a2">Habla Cultura</a>
+        </span>
+      </section>
+      <!-- Lekcje video -->
+      <section>
+        <h3>Video Lessons</h3>
+        <span class="video">
+          flash nie dziala
+          <a href="http://www.bbc.co.uk/languages/spanish/mividaloca/"
+            >BBC Mi Vida Loca</a
+          >
+        </span>
+        <span class="video">
+          <a href="https://www.thespanishblog.com/free-spanish-lessons/"
+            >The Spanish Blog</a
+          >
+        </span>
+        <span class="video"
+          ><a href="https://www.youtube.com/@practiquemos">Cata</a></span
+        >
+
+        <span class="video">
+          <a href="https://www.youtube.com/channel/UCTyCyyV0eKfEoMWI_V11z6A"
+            >Tu escuela español</a
+          >
+        </span>
+      </section>
+
+      <!-- Lekcje audio-->
+      <section>
+        <h3>Audio Lessons</h3>
+        <span class="lessons">
+          <a
+            href="http://www.101languages.net/spanish/spanish-vocabulary-lessons/"
+            >Vocabulary audio lessons</a
+          >
+        </span>
+        <span class="lessons">
+          <a href="https://www.spanish.cl/">Woodward</a>
+        </span>
+      </section>
+
+      <!-- Przydatne-->
+      <section>
+        <h3>&Uacute;til</h3>
+        <span class="util">
+          <a href="http://www.hiszpanski.slowka.pl/">Hiszpański słówka pl</a>
+        </span>
+
+        <span class="util">
+          <a href="http://www.lexisrex.com/Spanish-Vocabulary-Lists"
+            >Lexis Rex</a
+          >
+        </span>
+
+        <span class="util">
+          <a href="http://spanish.tolearnfree.com/spanish-placement-tests.php"
+            >Spanish to learn free</a
+          >
+        </span>
+
+        <span class="util">
+          <a href="http://www.learningchocolate.com/?st_lang=es"
+            >Learning chocolate
+          </a>
+        </span>
+        <span class="util">
+          <a href="http://www.verbanet.com.ar/edp.html">Español del plata </a>
+        </span>
+
+        <span class="util">
+          <a href="https://www.123teachme.com/">123 Teach Me </a>
+        </span>
+        <span class="util">
+          <a href="http://www.onlinefreespanish.com/">Online free Spanish</a>
+        </span>
+
+        <span class="util">
+          <a href="http://www.aprenderespanol.org/">Aprender espa&ntilde;ol</a>
+        </span>
+
+        <span class="util">
+          <a href="http://www.ver-taal.com/">Español para extranjeros</a>
+        </span>
+
+        <span class="util">
+          login: bkot13 password: trece 13
+          <a href="https://hiszpanski.ang.pl/">Szlifuj swój Hiszpański</a>
+        </span>
+
+        <span class="util">
+          <a href="http://spanish.speak7.com/spanish_letter_samples.htm"
+            >Letter samples</a
+          >
+        </span>
+
+        <span class="util">
+          <a
+            href="https://www.spanishplayground.net/learning-spanish-with-pictures/"
+            >Spanish Playground</a
+          >
+        </span>
+        <span class="util">
+          <a href="https://www.teachvid.com/">TeachVid</a>
+        </span>
+      </section>
+
+      <!-- Geografia-->
+      <section>
+        <h3>La geografía</h3>
+        <span class="geografia">
+          <a
+            href="https://es.speaklanguages.com/inglés/vocabulario/pa%C3%ADses-y-nacionalidades"
+            >Paises y nacionalidades 1</a
+          >
+        </span>
+
+        <span class="geografia">
+          <a
+            href="http://www.aprenderespanol.org/vocabulario/paises-nacionalidades.html"
+            >Paises y nacionalidades 2</a
+          >
+        </span>
+
+        <span class="geografia">
+          <a href="http://www.yourchildlearns.com/map-puzzles.htm"
+            >Map puzzles</a
+          >
+        </span>
+
+        <span class="geografia">
+          <a href="http://serbal.pntic.mec.es/ealg0027/mapasflash.htm"
+            >Mapas Flash Interactivos</a
+          >
+        </span>
+
+        <span class="geografia">
+          <a href="http://www.banderas-mundo.es/">Banderas Mundo</a>
+        </span>
+
+        <span class="geografia">
+          <a href="http://www.free-country-flags.com">Free country flags</a>
+        </span>
+
+        <span class="geografia">
+          <a href="http://juegos-geograficos.es/">Los juegos - geograficos</a>
+        </span>
+
+        <span class="geografia">
+          <a href="http://online.seterra.com/es">Seterra.com</a>
+        </span>
+
+        <h3>La canción</h3>
+        <span class="song">
+          <a href="https://lyricstraining.com/es/">Learn songs and lyrics</a>
+        </span>
+      </section>
+
+      <!-- Muzyka -->
+      <section>
+        <span class="song">
+          <a
+            href="https://lyricstraining.com/es/play/gente-de-zona-marc-anthony/la-gozadera/HdGuRFPidd#"
+            >Learn La Gozadera</a
+          >
+        </span>
+        <span class="song">
+          <a href="https://youtu.be/7qbEt_lSib4">Gipsy Kings: Bamboleo </a>
+        </span>
+        <span class="song">
+          <a
+            href="http://www.spaceclub.com.sg/download-music/oVEvdSiizlM/noche-de-paz-villancicos-de-navidad-heykids-es.html"
+            >Villancico:Noche de Paz
+          </a>
+        </span>
+
+        <span class="song">
+          <a href="https://youtu.be/_OIbReavK1U">Historia de un amor </a>
+        </span>
+      </section>
+
+      <!-- Gramatyka -->
+      <section>
+        <h3>La gramática</h3>
+        <span class="grammar">
+          <a
+            href="http://www.learnspanishfeelgood.com/spanish-verbs-verb-tenses.html"
+            >Learn Spanish Feel Good</a
+          >
+        </span>
+        <span class="grammar">
+          <a
+            href="https://www.hispafenelon.net/ESPACIOTRABAJO/EJERCICIOS/ejercicio.html"
+            >Hispafenelon.net</a
+          >
+        </span>
+
+        <span class="grammar">
+          <a
+            href="http://www.pdfdrive.com/basic-spanish-a-grammar-and-workbook-e811726.html"
+            >Grammar Workbook.pdf</a
+          >
+        </span>
+
+        <span class="grammar">
+          <a href="https://personal.colby.edu/~bknelson/SLC/chart_pres.html"
+            >Grammar verbs exercises</a
+          >
+        </span>
+
+        <span class="grammar">
+          <a href="https://personal.colby.edu/~bknelson/SLC/index.html"
+            >With Barbara Kuczan Nelson</a
+          >
+        </span>
+
+        <span class="grammar">
+          <a href="https://tip.iatext.ulpgc.es/silabas/default.aspx"
+            >Silabeador</a
+          >
+        </span>
+      </section>
+
+      <!-- Filmy -->
+      <section>
+        <h3>Pel&iacute;culas</h3>
+        <span class="mov"
+          ><a href="https://www.youtube.com/user/bookboxinc/featured"
+            >bookboxinc</a
+          ></span
+        >
+        <span class="mov">
+          <a href="https://youtu.be/UdafCqHO7Bs">The Little Pianist</a>
+        </span>
+        <span class="mov">
+          <a
+            href="http://www.prestonschool.pl/blog/seriale-do-nauki-jezyka-hiszpanski/"
+            >Movies for learners</a
+          >
+        </span>
+
+        <span class="mov">
+          <a
+            href="http://www.linkonardo.com/pl/hiszpanski/d3847/hiszpanska-darmowa-telewizja-online.html"
+            >TV etc.</a
+          >
+        </span>
+
+        <span class="mov">
+          <a
+            href="http://www.linkonardo.com/pl/hiszpanski/d3847/hiszpanska-darmowa-telewizja-online.html"
+            >TV etc.</a
+          >
+        </span>
+        <span class="mov">
+          <a href="https://youtu.be/zIcN9cfPfyE">Sobrevivendo con lobos</a>
+        </span>
+        <span class="mov">
+          <a href="https://youtu.be/-U-JpfxHAk8">Punto, línea y plano</a>
+        </span>
+      </section>
+
+      <!-- Czytanie-->
+
+      <section>
+        <h3>Lectura</h3>
+        <span class="book"
+          ><a href="http://www.spanishnovels.net/">Books for learners</a>
+        </span>
+        <span class="book"
+          ><a href="https://cvc.cervantes.es/aula/lecturas/"
+            >Cervantes Lecturas</a
+          ></span
+        >
+        <span class="book"
+          ><a href="https://www.gutenberg.org/ebooks/search/?query=spanish"
+            >Gutenberg A1-A2</a
+          >
+        </span>
+
+        <span class="book">
+          <a href="https://www.gutenberg.org/browse/languages/es"
+            >Gutenberg ALL</a
+          >
+        </span>
+        <span class="book">
+          <a
+            href="https://line.do/es/linea-tiempo-historia-de-las-matematicas/dn0/vertical"
+            >Historia de las matematicas</a
+          >
+        </span>
+        <span class="book">
+          <a
+            href="http://www.conocimientosfundamentales.unam.mx/vol2/quimica/pdfs/interior.pdf"
+            >Qu&iacute;mica</a
+          >
+        </span>
+        <span class="book">
+          <a href="https://albalearning.com/audiolibros/esopo/fab-001.html"
+            >Audiolibros</a
+          >
+        </span>
+        <span class="book">
+          <a href="https://es.wikipedia.org/wiki/Ben-Hur_(novela)#Primera_parte"
+            >Ben-Hur novela summary</a
+          >
+        </span>
+      </section>
+
+      <!-- Crucigramas -->
+      <!-- <h3>Crucigramas</h3>
+<span class="crucigrama">
+<a href="crucigramas\crucigrama_casa.html" target="_blank">La Casa</a>
+</span>
+<span class="crucigrama">
+<a href="https://www.tarkus.info/">Tarkus</a>
+</span>
+
+
+<span class="crucigrama">
+<a href="http://www.catedraldemallorca.info/inicio/images/stories/arxiu/Didactica/CRUCIGRAMA_Navidad.pdf">Navidad</a>
+</span>
+<span class="crucigrama">
+<a href="http://paraimprimirgratis.com/cont/jgo/pdf/cruc-semsan.pdf">Pascua</a>
+</span>
+<span class="crucigrama">
+	
+	
+	 login: bkot13 password: trece 13
+<a href="https://es.educaplay.com/es/recursoseducativos/1839681/actividad_1_teorema_de_pitagoras.htm">Educaplay</a>  
+</span> -->
+
+      <!-- Słuchanie ---->
+      <h3>Escucha</h3>
+
+      <span class="audio">
+        <a
+          href="https://www.youtube.com/channel/UCRwiFp6WtYxYoKmTggfc-Kg/featured"
+          >Audiolibros en Castellano</a
+        >
+      </span>
+      <span class="audio"
+        ><a href="https://www.audio-lingua.eu/?lang=en">Audio Lingua</a>
+      </span>
+      <span class="audio">
+        <a href="http://www.spanishlistening.org/">Spanish listening</a>
+      </span>
+
+      <span class="audio">
+        <a href="http://www.bbc.co.uk/schools/gcsebitesize/spanish/"
+          >GCSE BBC Spanish
+        </a>
+      </span>
+
+      <!-- Matematyka -->
+
+      <h3>&iquest;La matemática o las matemáticas?</h3>
+      <cite
+        >El Diccionario de la Real Academia Española define la matemática como:
+        “Ciencia deductiva que estudia las propiedades de los entes abstractos,
+        como números, figuras geométricas o símbolos, y sus relaciones”. Y
+        agrega que se usa “en plural con el mismo significado que en
+        singular”</cite
+      >
+      <br clear="all" />
+
+      <h3>Las matemáticas - pel&iacute;culas</h3>
+
+      <span class="mat">
+        <a href="http://matematicasentumundo.es/CINE/cine.htm"
+          >Matemáticas del Cine</a
+        >
+      </span>
+
+      <span class="mat">
+        <a href="https://youtu.be/FmFcxf3PZUA">Midiendo el mundo (Gauss)</a>
+      </span>
+
+      <span class="mat">
+        <a href="https://youtu.be/Ol7Ogu8ZEIA">Gauss</a>
+      </span>
+
+      <h3>Las matemáticas - libros, etc ...</h3>
+
+      <span class="mat">
+        <a href="http://personales.unican.es/fioravam/geobas.htm"
+          >Mario Fioravanti</a
+        >
+      </span>
+
+      <span class="mat">
+        <a href="http://math.kendallhunt.com/x19813.html"
+          >High school math en-es</a
+        >
+      </span>
+
+      <span class="mat">
+        <a href="http://denisemeeks.com/science/spandict/"
+          >Math en-es dictionary</a
+        >
+      </span>
+
+      <span class="mat">
+        <a href="http://www.disfrutalasmatematicas.com/"
+          >Disfruta de las matematicas
+        </a>
+      </span>
+
+      <span class="mat">
+        <a href="https://www.matematicasonline.es/#">Matemáticas online</a>
+      </span>
+
+      <span class="mat">
+        <a
+          href="http://www.cimt.org.uk/projects/mepres/primary/spanish/index.htm"
+          >MEP Classes 1, 2, 3, 4</a
+        >
+      </span>
+
+      <span class="mat">
+        <a
+          href="https://www.matematicasonline.es/pequemates/almacen/almacen_primaria.html"
+          >Alamcen Primera</a
+        >
+      </span>
+
+      <span class="mat">
+        <a href="https://www.matematicasonline.es/almacen/acis.html"
+          >Almacen Secundaria</a
+        >
+      </span>
+
+      <span class="mat">
+        <a
+          href="http://www.montereyinstitute.org/courses/Algebra1/COURSE_TEXT_RESOURCE/index.html"
+          >Monterey Institute</a
+        >
+      </span>
+
+      <span class="mat">
+        <a href="http://www.adaptacionescurriculares.com/materiales.html"
+          >Adaptaciones Curriculares</a
+        >
+      </span>
+
+      <span class="mat">
+        <a href="http://www.masmates.com/">Matemáticas de secundaria</a>
+      </span>
+
+      <span class="mat">
+        <a
+          href="http://www.olimpiadamatematica.es/platea.pntic.mec.es/_csanchez/olimprfs.htm
+"
+          >Olimpiada Matemática Española</a
+        >
+      </span>
+
+      <span class="mat">
+        <a href="http://www.canguromat.org.es/">Canguro Matemático</a>
+      </span>
+
+      <span class="mat">
+        <a href="http://concursopangea.com/pruebas-ediciones-anteriores/"
+          >Pangea</a
+        >
+      </span>
+
+      <span class="mat">
+        <a
+          href="http://www.mat.ucm.es/~rrdelrio/publica/ejer_problemas_1_3eso.pdf"
+          ><abbr
+            title="Educación secundaria general para alumnos de 12 a 16 años"
+            >ESO</abbr
+          >
+          Matemáticas</a
+        >
+      </span>
+    </div>
+  </body>
+</html>

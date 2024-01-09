@@ -1,0 +1,179 @@
+; EclipseCrossword (1.2.62) crossword puzzle
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+Title:  la_casa_crucigrama
+Width:  45
+Height:  45
+CodePage:  238
+Author:  Barbara Kot
+Copyright:  © 2018
+
+; ------------------------------------------------------------
+* Across words
+; ------------------------------------------------------------
+
+CUBIERTOS:  19, 24:  sztuæce
+LAVABO:  21, 27:  umywalka … o
+MUNECA:  14, 23:  lalka
+VASO:  16, 26:  fili¿anka na v
+VALLA:  15, 29:  p³ot na v
+APARADOR:  11, 18:  kredens na a
+MUEBLE:  24, 22:  mebel
+COMEDOR:  12, 32:  jadalnia
+ASEO:  8, 16:  ubikacja na a
+CUCHILLO:  11, 38:  nó¿
+TOCADOR:  6, 20:  toaletka
+CAJÓN:  8, 24:  szuflada
+INTERRUPTOR:  1, 11:  wy³¹cznik
+SOL:  28, 26:  s³oñce
+TELEVISOR:  4, 30:  telewizor
+COLCHÓN:  14, 16:  materac
+ASCENSOR:  5, 8:  winda
+FREGADERO:  10, 43:  zlew
+ANAQUEL:  7, 34:  pó³ka
+SILLA:  1, 32:  krzes³o
+MADERA:  1, 18:  drewno
+REFRIGERADOR:  7, 5:  lodówka na r
+PISO:  1, 16:  mieszkanie
+BALCON:  24, 32:  balkon
+EDREDÓN:  5, 45:  pierzyna na e...
+ESCAPARATE:  17, 7:  szafka, witryna sklepowa
+LAVADORA:  21, 10:  pralka
+SECADOR:  25, 29:  suszarka
+LAVAPLATOS:  22, 2:  lavaplatos ... p...
+PAPELERA:  1, 3:  kosz na papiery
+NEVERA:  1, 39:  lodówka na n
+CUADRO:  1, 42:  obraz
+ESCALERAS:  27, 38:  schody
+TRESILLO:  29, 21:  zestaw wypoczynkowy - tapczan i 2 fotele
+CERCA:  23, 39:  p³ot na c
+LENA:  26, 5:  chrust
+INODORO:  22, 14:  klozet na i
+MATRIMONIO:  17, 41:  cama de ... czyli ó¿ko dla dwóch osób
+PLATILLO:  27, 8:  talerzyk, spodek
+CIELO:  27, 42:  niebo
+CALEFACCIÓN:  30, 18:  ogrzewanie
+ALFÉIZAR:  30, 4:  parapet
+PILA:  25, 12:  bateria do zlewu, wylewka
+RECIBIDOR:  13, 13:  przedpokój na r
+RADIADOR:  31, 33:  grzejnik
+COLGADERO:  35, 2:  wieszak z koñcówka o
+CAMPANA:  39, 23:  okap na c
+CUCHARA:  31, 31:  ³y¿ka
+BOMBILLA:  28, 16:  ¿arówka
+PANO:  20, 44:  œciereczka
+ARBUSTO:  32, 12:  krzak
+GAS:  31, 14:  cocina de ... = kuchenka gazowa
+ROPA:  6, 37:  ... de cama =  poœciel
+RADIO:  36, 26:  radio
+MANILLA:  35, 28:  r¹czka
+TECHO:  38, 7:  sufit
+FAROLA:  15, 35:  lampa uliczna
+FELPUDO:  37, 10:  wycieraczka
+APARTAMENTO:  35, 35:  ma³e mieszkanie
+CAJA:  42, 29:  pud³o
+ÁRBOL:  41, 40:  drzewo
+MANTA:  31, 24:  koc
+MACETA:  40, 13:  doniczka
+ESTANTE:  15, 1:  pó³ka
+SÓTANO:  38, 38:  piwnica
+ADORNO:  40, 17:  ozdoba
+PLATO:  19, 33:  talerz
+ESCURRIDOR:  34, 44:  ociekacz
+BUZÓN:  39, 42:  skrzynka na listy
+ARMARIO:  20, 17:  szafa
+LATA:  3, 13:  puszka de basura
+VENTANA:  26, 45:  okno
+
+; ------------------------------------------------------------
+* Down words
+; ------------------------------------------------------------
+
+RELOJ:  26, 21:  zegar
+CRISTAL:  22, 22:  szyba
+TIMBRE:  24, 20:  dzwonek
+MACHO:  19, 22:  wtyczka z bolcem
+DESVÁN:  16, 18:  strych na d
+AZULEJOS:  17, 26:  kafelki
+PERSIANAS:  12, 18:  rolety
+CÓMODA:  11, 13:  komoda
+EDIFICIO:  15, 32:  budynek
+TEJADO:  29, 21:  dach
+HORNO:  18, 16:  piekarnik
+PERCHA:  8, 11:  wieszak na p
+CARTEL:  6, 17:  plakat na c
+HABITACIÓN:  9, 23:  pokój na h
+TABURETE:  5, 7:  taboret
+ZAPATILLAS:  3, 7:  kapcie
+MECEDORA:  7, 27:  fotel bujany na m
+ALFOMBRA:  17, 37:  dywan
+CONGELADOR:  5, 26:  zamra¿arka
+DORMITORIO:  2, 24:  sypialnia
+PASILLO:  11, 2:  korytarz
+BUTACA:  14, 40:  krzes³o w kinie,  fotel bujany
+VÍDEO:  13, 2:  video
+BASURA:  25, 27:  cubo de œmieci
+CUCHARÓN:  11, 38:  chochla
+JARDÍN:  15, 4:  ogród
+FLORERO:  17, 3:  wazon na f
+PARED:  8, 2:  œciana
+TOALLA:  22, 5:  rêcznik
+PICAPORTE:  8, 37:  klamka na p
+RETRETE:  5, 39:  ubikacja na r
+HIGIÉNICO:  1, 5:  papel de ... toaletowy
+VECINA:  24, 2:  s¹siadka
+BARANDILLA:  28, 1:  porêcz
+TERRAZA:  20, 1:  taras
+POMO:  1, 16:  ga³ka do drzwi
+CAMA:  19, 7:  ³ó¿ko
+SALÓN:  31, 2:  salon na s
+ELÉCTRICA:  14, 13:  cocina de ... = kuchenka elektryczna
+CHIMENEA:  27, 32:  komin, kominek
+OSITO:  26, 10:  niedŸwiadek
+VECINO:  23, 10:  s¹siad
+NUBE:  4, 36:  chmura
+COJÍN:  1, 35:  jasiek
+SILLÓN:  31, 35:  fotel
+ESPEJO:  4, 18:  lustro
+ENCHUFE:  29, 36:  wtyczka
+CUARTO:  33, 35:  pokój na c
+LAVAMANOS:  35, 30:  umywalka … s
+PARABÓLICA:  35, 15:  antena satelitarna
+MESILLA:  21, 38:  stolik de noche
+LÁMPARA:  32, 8:  lampa
+CISTERNA:  24, 35:  sp³uczka
+TAZA:  30, 8:  fli¿anka de bano czyli klozet
+HOGAR:  36, 1:  dom na h
+BANQUETA:  40, 16:  sto³ek
+BANO:  37, 30:  ³azienka
+GRIFO:  42, 1:  kran
+FREGADOR:  43, 19:  zmywarka do naczyñ, zlewozmywak
+ESTANTERÍA:  45, 20:  rega³
+CEPILLO:  39, 23:  mo¿e byæ ... de dientes, de pelo, de unas
+DUVÉ:  40, 2:  ko³dra na d…
+MANGO:  3, 41:  r¹czka, uchwyt przy walizce, drzwiach
+TENEDOR:  38, 7:  widelec
+WÁTER:  42, 32:  klozet na w
+HEMBRA:  40, 30:  gniazdko
+BANCO:  28, 28:  ³awka
+PORTILLO:  45, 34:  furtka na p
+LLAVE:  20, 33:  klucz
+TAPÓN:  39, 35:  zatyczka do wanny lub zlewu
+PUERTA:  4, 1:  drzwi
+ENTRADA:  33, 23:  wejœcie
+DUCHA:  41, 9:  prysznic
+COLCHA:  45, 8:  narzuta, kapa
+BIDÉ:  33, 1:  bidet
+JABÓN:  44, 29:  myd³o
+MESA:  37, 23:  stó³
+COCINA:  20, 12:  kuchnia
+ÁTICO:  37, 15:  strych na á
+BANERA:  43, 40:  wanna
+ESTAR:  22, 31:  sale de ... = salon do bycia
+CASA:  1, 42:  dom na c
+SACO:  36, 42:  worek
+SOFÁ:  34, 7:  sofa
+MOQUETA:  43, 9:  wyk³adzina
+IMÁN:  28, 42:  magnez
+
